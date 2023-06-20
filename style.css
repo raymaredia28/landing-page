@@ -5,10 +5,11 @@
 
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1f2937;
     align-items: center;
     margin: -10px;
+    padding-left: 200px; padding-right:200px;
 }
 
 ul{
@@ -33,14 +34,63 @@ a{
 
 .section-1{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    background-color: #1f2937;
+    margin: -10px;
+    padding: 125px 200px 125px 200px;
+    gap: 48px;
 }
 
 .left-1{
     display: flex;
     flex-direction: column;
     flex-grow: 0;
+    color: #F9FAF8;
+    align-items: justify;
+    width: 50%;
 }
 
+button{
+    max-width:max-content;
+    background-color: #3882F6;
+    border: none; border-radius: 5px;
+    color: white;
+    padding: 10px 25px 10px 25px;
+}
 
+button::hover{
+    background-color: white;
+}
+
+.title-1{
+    font-size: 48px;
+    font-weight: 800px;
+}
+
+.desc{font-size: 18px;}
+
+.s3-header{
+    text-align: center;
+    padding: 25px;
+}
+
+.placeholder-images{
+    border: 5px solid #3882F6;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.section-3{
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+.descriptions{
+    flex: 1;
+    width: 150px;
+    text-align: center;
+}
