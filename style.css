@@ -118,3 +118,33 @@ button::hover{
     font-size: 24px;
 }
 
+.last-section{
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-around;
+    align-items: center;
+    margin: 75px 150px 75px 150px;
+    border-radius: 10px;
+    color:white;
+    padding: 30px;
+}
+
+.sign-up{
+    border: 2px solid white; border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.last-title{
+    font-size: larger;
+    margin-bottom: -15px;
+}
+
+footer{
+    background-color:#1f2937;
+    color: #F9FAF8;
+    margin: -10px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
