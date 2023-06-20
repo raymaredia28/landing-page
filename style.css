@@ -66,6 +66,7 @@ button::hover{
 .title-1{
     font-size: 48px;
     font-weight: 800px;
+    margin-bottom: -8px;
 }
 
 .desc{font-size: 18px;}
@@ -73,13 +74,15 @@ button::hover{
 .s3-header{
     text-align: center;
     padding: 25px;
+    font-size: 36px;
+    font-weight: 800px;
 }
 
 .placeholder-images{
     border: 5px solid #3882F6;
     height: 150px;
     width: 150px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .section-3{
@@ -87,6 +90,7 @@ button::hover{
     gap: 48px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .descriptions{
@@ -94,3 +98,23 @@ button::hover{
     width: 150px;
     text-align: center;
 }
+.section-4{
+    background-color: #E5E7EB;
+    padding: 75px 250px 75px 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.thor-quote{
+    text-align: left;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight:lighter;
+}
+
+.thor{
+    text-align: right;
+    margin-top: -15px;
+    font-size: 24px;
+}
+
